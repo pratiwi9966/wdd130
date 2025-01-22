@@ -1,13 +1,13 @@
 :root {
-  --heading-background-color: #f06;
-  --heading-text-color: #333;
-  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --nav-background-color: darkblue;
+  --nav-text-color: #333;
+  --nav-font: 'Montserrat', Helvetica, sans-serif;
   --padding: 1rem;
   --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 nav {
-  background-color: darkblue;
+  background-color: var(--nav-background-color);/*nav's background color*/
   padding: 10px;
 }
 
@@ -18,7 +18,7 @@ nav a {
 }
 
 h1 {
-  color: darkblue;
+  color: darkblue;/*text color*/
 }
 
 img {
