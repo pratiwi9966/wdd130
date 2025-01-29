@@ -73,6 +73,11 @@ section {
   padding: 2rem;
 } 
 
+section img {
+  width: 100%;
+  
+}
+
 /*The footer styles */
 footer {
  text-align: center;
