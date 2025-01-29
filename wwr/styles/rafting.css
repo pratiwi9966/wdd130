@@ -1,3 +1,12 @@
+:root {
+  --primary-color:  #F6B81A;  
+  --secondary-color:  #1AA595;
+  --accent1-color: #D17E30;
+  --accent2-color:  #5B3D1E;
+  --accent1-color-transparent: #D17E3077;
+  
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11,8 +20,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:#505033 ;
   padding: 20px 30px;
+  background-color: var(--secondary-color) ;
 }
 
 header .logo {
@@ -24,9 +33,10 @@ header nav a {
   font-weight: 700;
   font-size: 1.2rem;
   font-family:roboto ;
-  color: #CFCFB4;
+  color: var(--accent2-color);
 }
 
+/* hero is a container for article */
 .hero {
   position: relative;
 
@@ -49,7 +59,7 @@ h1 {
 article {
   position: absolute;
   bottom: 10px;
-  background-color:#50503377;
+  background-color: var(--accent1-color-transparent);
   padding: 1rem;
   border-radius: 8px;
   width: 100%;
@@ -66,7 +76,7 @@ article {
 h2 {
   font-family: 'Instrument Serif', serif;
   font-size: 2rem;
-  color: #264969;
+  color: var(--secondary-color);
 }
 
 section {
@@ -83,7 +93,7 @@ section img {
 footer {
  text-align: center;
   padding: 20px 0;
-  background-color: #1AA595;
+  background-color: var(--secondary-color);
 }
 
 footer nav.sociallinks a {
