@@ -69,12 +69,6 @@ h2 {
   color: #264969;
 }
 
-article h2 {
-  font-family: inherit;
-  color: inherit;
-  font-size: inherit;
-}
-
 section {
   font-size: 1.6rem;
   padding: 2rem;
