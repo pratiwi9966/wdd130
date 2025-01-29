@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body{
   margin: 0;
 }
@@ -88,6 +89,7 @@ section img {
 footer {
  text-align: center;
   padding: 20px 0;
+  background-color: #1AA595;
 }
 
 footer nav.sociallinks a {
