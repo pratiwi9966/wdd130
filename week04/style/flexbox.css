@@ -1,0 +1,46 @@
+.flexbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  position:relative;
+
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #f6b81a;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+}
+
+.axis {
+  position: absolute;
+}
+
+.main-axis {
+  background-color: red;
+  height: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width:100%;
+}
+
+.cross-axis {
+  background-color: blue;
+  width: 5px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
