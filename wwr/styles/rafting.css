@@ -105,10 +105,16 @@ section img {
   align-items: center;
 }
 
+/* Adventure section */
 .adventure {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 } 
+
+.adventure img {
+  object-fit: cover;
+  height: 100%;
+}
 
 /*The footer styles */
 footer {
