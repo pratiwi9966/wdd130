@@ -21,7 +21,8 @@ body{
 
 /*The Header styles */
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
   padding: 20px 30px;
@@ -32,8 +33,13 @@ header .logo {
   height: 90px;
 }
 
-header nav a {
-  margin: 0 20px;
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+header nav a {   
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--accent2-color);
@@ -91,6 +97,18 @@ section img {
   width: 100%;
 
 }
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.adventure {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} 
 
 /*The footer styles */
 footer {
