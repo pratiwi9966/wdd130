@@ -107,7 +107,7 @@ section img {
   background-color: var(--accent1-color-transparent);
 }
 
-.history {
+#history div { 
   display: grid;
   grid-template-columns: 1fr 300px 1fr;
   gap: 1rem;
@@ -115,16 +115,16 @@ section img {
 }
 
 /* Adventure section */
-#advanture {
-  background-color: var(--accent1-color);
+#adventure {
+  background-color: var(--accent2-color);
 }
 
-.adventure {
+#adventure div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 } 
 
-.adventure img {
+#adventure img {
   object-fit: cover;
   height: 100%;
 }
