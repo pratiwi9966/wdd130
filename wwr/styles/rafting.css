@@ -101,7 +101,10 @@ section {
 
 section img {
   width: 100%;
+}
 
+#history {
+  background-color: var(--accent1-color-transparent);
 }
 
 .history {
@@ -112,6 +115,10 @@ section img {
 }
 
 /* Adventure section */
+#advanture {
+  background-color: var(--accent1-color);
+}
+
 .adventure {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -124,7 +131,10 @@ section img {
 
 /*The footer styles */
 footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
+  align-items: center;
   padding: 20px 0;
   background-color: var(--secondary-color);
 }
@@ -137,5 +147,6 @@ footer nav.sociallinks a {
 footer nav.sociallinks img {
   width: 30px;
   height: auto;
+  text-align: right;
 }
 
