@@ -82,10 +82,16 @@ article {
 }
 
 /* title font and color */
-h2 {
+section h2 { 
   font-family: var(--heading-font);
   font-size: 2rem;
   color: var(--secondary-color);
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: unset;
 }
 
 section {
