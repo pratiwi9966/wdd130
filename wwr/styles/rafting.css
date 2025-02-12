@@ -4,6 +4,7 @@
   --accent1-color: #D17E30;
   --accent2-color:  #5B3D1E;
   --accent1-color-transparent: #D17E3077;
+  --heading-color: black;
   --heading-font:  Georgia;
   --text-font:  "Instrument Sans";
 
@@ -26,7 +27,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 30px;
-  background-color: var(--secondary-color) ;
+  background-color: var(--accent2-color);
 }
 
 header .logo {
@@ -42,7 +43,7 @@ header nav {
 header nav a {   
   font-weight: 700;
   font-size: 1.2rem;
-  color: var(--accent2-color);
+  color: var(--accent1-color);
 }
 
 /* hero is a container for article */
@@ -85,7 +86,7 @@ article {
 section h2 { 
   font-family: var(--heading-font);
   font-size: 2rem;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   text-align: center;
 }
 
@@ -104,7 +105,7 @@ section img {
 }
 
 #history {
-  background-color: var(--accent1-color-transparent);
+  background-color: var(--accent1-color);
 }
 
 #history div { 
@@ -116,7 +117,7 @@ section img {
 
 /* Adventure section */
 #adventure {
-  background-color: var(--accent2-color);
+  background-color: var(--primary-color);
 }
 
 #adventure div {
@@ -136,7 +137,8 @@ footer {
   text-align: center;
   align-items: center;
   padding: 20px 0;
-  background-color: var(--secondary-color);
+  color: white;
+  background-color: var(--accent2-color);
 }
 
 footer nav.sociallinks a {
