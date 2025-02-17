@@ -145,14 +145,14 @@ section img {
 } 
 
 #staff-img img {
-  height: 300px;
+  height: 500px;
   object-fit: cover;
 }
 
 /* Map */
 #contact-info {
   display: flex;
-  gap: 20rem;
+  gap: 50rem;
 }
 
 
@@ -262,5 +262,10 @@ footer nav.sociallinks img {
   text-align: right;
 }
 
+#wireframe img {
+  width: 40px;
+  height: auto;
+  text-align: right;
+}
 
 
