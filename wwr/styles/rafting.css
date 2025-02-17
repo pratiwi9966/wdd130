@@ -64,12 +64,15 @@ header nav a {
 
 /* title font and color */
 h1 {
+  font-family: var(--heading-font);
+  font-size: 4rem; 
+}  
+
+#about h1 {
   position: absolute;
   top: 50px;
-  font-family: var(--heading-font);
-  font-size: 4rem;
   left: 50px;
-}  
+}
 
 article {
   position: absolute;
@@ -88,7 +91,7 @@ article {
 }
 
 /* title font and color */
-section h2 { 
+#about section h2 { 
   font-family: var(--heading-font);
   font-size: 2rem;
   color: var(--heading-color);
@@ -96,7 +99,7 @@ section h2 {
 }
 
 .hero h2 {
-  font-size: 2rem;
+  font-size: 25.6px;
   font-weight: unset;
 }
 
@@ -135,6 +138,108 @@ section img {
   height: 100%;
 }
 
+/* Staff*/
+#staff-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} 
+
+#staff-img img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Map */
+#contact-info {
+  display: flex;
+  gap: 20rem;
+}
+
+
+/* The Contact form style */
+form {
+  width: 750px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: var(--heading-color);
+  font-size: 1.5em;
+  font-family: var(--heading-font);
+}
+
+label, input, button, select, textarea {
+  font-family: var(--text-font);  
+}
+
+textarea {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: var(--accent1-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
+
+
+
+
 /*The footer styles */
 footer {
   display: grid;
@@ -156,4 +261,6 @@ footer nav.sociallinks img {
   height: auto;
   text-align: right;
 }
+
+
 
