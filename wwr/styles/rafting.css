@@ -5,6 +5,7 @@
   --accent2-color:  #5B3D1E;
   --accent1-color-transparent: #D17E3077;
   --heading-color: black;
+  --link-color: #eee;
   --heading-font:  Georgia;
   --text-font:  "Instrument Sans";
 
@@ -43,7 +44,7 @@ header nav {
 header nav a {   
   font-weight: 700;
   font-size: 1.2rem;
-  color: var(--accent1-color);
+  color: var(--link-color);
 }
 
 /* hero is a container for article */
@@ -61,6 +62,12 @@ header nav a {
   width: 100%;
 }
   
+.hero-index img {
+  position: absolute;
+  width: 100%;
+  height: auto; 
+  
+}
 
 /* title font and color */
 h1 {
@@ -138,17 +145,20 @@ section img {
   height: 100%;
 }
 
-#contact-info{ 
+#contact-us{ 
   background-color: var(--accent1-color);
 }
 
-/* Staff*/
-.section-subtitle {
-  background-color: var(--primary-color) ;
+/* Map */
+#contact-info {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
 }
 
-#staff-img {
-  background-color: var(--primary-color);
+/* Staff*/
+#staff {
+  background-color: var(--primary-color) ;
 }
 
 #staff-img {
@@ -159,14 +169,6 @@ section img {
 #staff-img img {
   height: 500px;
   object-fit: cover;
-}
-
-/* Map */
-#contact-info {
-  display: flex;
-  /* width:  500px;
-  height: 300px; */
-  gap: 50rem;
 }
 
 
@@ -282,4 +284,7 @@ footer nav.sociallinks img {
   text-align: right;
 }
 
+#wireframe a {
+  color: var(--link-color);
+}
 
