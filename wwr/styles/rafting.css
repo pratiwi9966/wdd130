@@ -65,8 +65,8 @@ header nav a {
 .hero-index img {
   position: absolute;
   width: 100%;
-  height: auto; 
-  
+  height: 50%; 
+  bottom: 10px;
 }
 
 /* title font and color */
@@ -130,10 +130,23 @@ section img {
   align-items: center;
 }
 
+/* products and offering*/
+#products div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#products img {
+  object-fit: cover;
+  height: 100%;
+}
+
+
 /* Adventure section */
 #adventure {
   background-color: var(--primary-color);
 }
+
 
 #adventure div {
   display: grid;
