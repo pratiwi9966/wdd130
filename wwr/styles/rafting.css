@@ -138,13 +138,13 @@ section img {
 }
 
 /* products and offering*/
-#products div {
+#products figure {
   display: grid;
   gap: 4rem;
   grid-template-columns: 1fr 1fr;
 }
 
-#products div + div {
+#products figure + figure {
   margin-top: 4rem;
 }
 
