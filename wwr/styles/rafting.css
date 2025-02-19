@@ -149,7 +149,7 @@ section img {
 }
 
 #products img {
-  object-fit: 300px;
+  object-fit: cover;
   height: 400px;
 
 }
