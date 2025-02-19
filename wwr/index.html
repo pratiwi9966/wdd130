@@ -22,23 +22,27 @@
       <a href="index.html">Home</a> 
       <!-- the future home page of wwr, not to be confused with the course home page -->
       <a href="about.html">About us</a>
-      <a href="trips.html">Trips</a>
+      <a href="trip.html">Trips</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
   
   <main>
     <div class="hero">
-      <img src="images/hero-index.jpg" alt="Wild Flow Rafting" class="hero images">
+      <img src="images/hero-index.jpg" alt="Wild Flow Rafting">
       <div id="gradient"></div>
-      <h1>Join the Adventure</h1>
-      <p>Explore the most exhilarating white water rafting experiences with expert guides and breathtaking river routes.</p>
-      <a href="trips.html" id="button"> Book Your Trip Now</a>
+      <article>
+        <h1>Join the Adventure</h1>
+        <p>Explore the most exhilarating white water rafting experiences with expert guides and breathtaking river routes.</p>
+        <div class="centered">
+          <a href="trip.html" class="button">Book Your Trip Now</a>
+        </div>
+      </article>
     </div>
 
     <!-- products and offering -->
     <section id="products">
-      <h1>Our offering</h1>
+      <h2>Our offering</h2>
         <div class="product">
             <img src="images/purpose-offering1.jpg" alt="Product 1">
             <figcaption>
@@ -67,11 +71,13 @@
     
     <!-- newsletter sign up form -->
     <section id="newsletter"> 
-      <h2>Subscribe to get update Information</h2>
+      <h2>Subscribe to get updates</h2>
       <form action="#" method="post">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
-        <button type="submit">Subscribe</button>
+        <div class="centered">
+          <button type="submit">Subscribe</button>
+        </div>
       </form>
     </section>
   </main>
