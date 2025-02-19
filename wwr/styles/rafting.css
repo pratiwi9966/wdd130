@@ -142,8 +142,9 @@ section img {
 }
 
 #products img {
-  object-fit: cover;
-  height: 500px;
+  object-fit: 300px;
+  height: 400px;
+
 }
 
 /* Trips*/
