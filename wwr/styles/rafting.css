@@ -155,7 +155,7 @@ section img {
 }
 
 /* Trips*/
-#trips section {
+.trip {
   display: grid;
   gap: 4rem;
   grid-template-columns: 1fr 1fr;
